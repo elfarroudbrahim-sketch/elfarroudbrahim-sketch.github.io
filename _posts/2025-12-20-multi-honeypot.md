@@ -76,7 +76,7 @@ Pour éviter qu'un attaquant ne s'évade du conteneur (*Container Escape*), plus
 
 L'intelligence du projet réside dans la centralisation des logs pour une analyse comportementale.
 
-![Structure du projet sur GitHub](/assets/img/posts/github-honeypot.png)
+
 <p style="text-align: center; font-style: italic; font-size: 0.85rem;">Structure du dépôt : Scripts Python de simulation et fichiers de configuration Docker</p>
 
 * **Elasticsearch** : Indexation massive des logs d'attaques.
