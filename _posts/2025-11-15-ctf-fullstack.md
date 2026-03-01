@@ -5,7 +5,7 @@ date: 2025-11-15 14:00:00 +0100
 categories: [Projects, Development]
 tags: [Laravel, PHP, Cybersecurity, AI, CTF]
 image:
-  path: /assets/img/posts/ctf-platform-banner.png
+  path: /assets/img/posts/ctf-platform-banner.jpeg
   alt: "Interface de la plateforme CTF"
 ---
 
