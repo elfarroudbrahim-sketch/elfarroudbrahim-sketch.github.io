@@ -6,15 +6,13 @@ order: 1
 ---
 
 <style>
-  /* Utilisation des variables système de Chirpy pour l'adaptation automatique */
   .about-container {
     color: var(--main-text-color);
     line-height: 1.7;
   }
 
-  /* Intro Card - Adaptation dynamique */
   .intro-card {
-    background: var(--main-bg); /* Utilise le fond du thème */
+    background: var(--main-bg);
     border: 1px solid var(--main-border-color);
     border-radius: 20px;
     padding: 2.5rem;
@@ -22,7 +20,6 @@ order: 1
     box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   }
 
-  /* Mode sombre spécifique pour l'intro pour garder l'effet "pro" */
   [data-mode='dark'] .intro-card {
     background: linear-gradient(145deg, #1e1e22, #121214);
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
@@ -35,7 +32,6 @@ order: 1
     margin-bottom: 1rem;
   }
 
-  /* Sections Titles */
   .section-title {
     font-size: 1.6rem;
     font-weight: 700;
@@ -53,17 +49,16 @@ order: 1
     flex-grow: 1;
   }
 
-  /* Grilles et Cartes */
   .skills-grid, .cert-grid {
     display: grid;
     gap: 1.5rem;
   }
 
   .skills-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-  .cert-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  .cert-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 
   .skill-column, .cert-card {
-    background: var(--card-bg); /* Variable Chirpy pour le fond des cartes */
+    background: var(--card-bg);
     border: 1px solid var(--main-border-color);
     border-radius: 16px;
     padding: 1.5rem;
@@ -76,12 +71,11 @@ order: 1
   }
 
   .column-header, .cert-card i {
-    color: #007bff; /* Bleu constant pour l'identité visuelle */
+    color: #007bff;
     margin-bottom: 1.2rem;
     font-weight: 600;
   }
 
-  /* Tags de compétences */
   .skill-tags {
     display: flex;
     flex-wrap: wrap;
@@ -89,7 +83,7 @@ order: 1
   }
 
   .skill-tag {
-    background: var(--checkbox-checked-bg); /* Utilise une couleur neutre du thème */
+    background: var(--checkbox-checked-bg);
     opacity: 0.8;
     border: 1px solid var(--main-border-color);
     color: var(--main-text-color);
@@ -127,18 +121,28 @@ order: 1
   <div class="cert-grid">
     <div class="cert-card">
       <i class="fas fa-user-secret"></i>
-      <span class="cert-name">TryHackMe</span>
-      <span class="cert-issuer">Rank: Top 5% / Advent of Cyber</span>
+      <span class="cert-name">Junior Penetration Tester Path</span>
+      <span class="cert-issuer">TryHackMe</span>
+    </div>
+    <div class="cert-card">
+      <i class="fas fa-plug"></i>
+      <span class="cert-name">API Penetration Testing</span>
+      <span class="cert-issuer">APIsec University</span>
     </div>
     <div class="cert-card">
       <i class="fas fa-shield-alt"></i>
-      <span class="cert-name">Fortinet NSE 1 & 2</span>
-      <span class="cert-issuer">Network Security Associate</span>
+      <span class="cert-name">Introduction to Cybersecurity</span>
+      <span class="cert-issuer">Cisco</span>
     </div>
     <div class="cert-card">
-      <i class="fas fa-network-wired"></i>
-      <span class="cert-name">Cisco Networking</span>
-      <span class="cert-issuer">Introduction to Cybersecurity</span>
+      <i class="fas fa-database"></i>
+      <span class="cert-name">Oracle SQL</span>
+      <span class="cert-issuer">Database Administration</span>
+    </div>
+    <div class="cert-card">
+      <i class="fas fa-lock"></i>
+      <span class="cert-name">Cybersecurity Fundamentals</span>
+      <span class="cert-issuer">Udemy Professional</span>
     </div>
   </div>
 
